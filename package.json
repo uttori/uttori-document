@@ -1,0 +1,34 @@
+{
+  "name": "uttori-document",
+  "version": "1.0.0",
+  "description": "Uttori base document model.",
+  "author": "Matthew Callis <matthew.callis@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "repository": "uttori/uttori-document",
+  "homepage": "https://github.com/uttori/uttori-document",
+  "keywords": [],
+  "engines": {
+    "node": ">= 8.11"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-ava": "^5.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-no-inferred-method-name": "^1.0.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-xss": "^0.1.9"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "uttori-document",
+  "scripts": {
+    "lint": "eslint .",
+    "validate": "npm ls"
+  }
+}
