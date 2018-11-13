@@ -10,6 +10,7 @@ Fields:
 - `updateDate` number, timestamp
 - `createDate` number, timestamp
 - `tags` array of strings
+- `customData` object of key/value pairs of custom data
 
 # Namesake
 

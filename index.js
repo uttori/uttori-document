@@ -8,6 +8,7 @@ class Document {
     this.updateDate = null;
     this.createDate = null;
     this.tags = [];
+    this.customData = {};
   }
 }
 
