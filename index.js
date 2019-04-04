@@ -1,4 +1,3 @@
-// Represents a single document in the system
 class Document {
   constructor() {
     this.content = '';
