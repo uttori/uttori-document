@@ -1,7 +1,7 @@
 class Document {
   constructor() {
     this.content = '';
-    this.createDate = null;
+    this.createDate = undefined;
     this.customData = {};
     this.excerpt = '';
     this.html = '';
@@ -9,7 +9,7 @@ class Document {
     this.slug = '';
     this.tags = [];
     this.title = '';
-    this.updateDate = null;
+    this.updateDate = undefined;
   }
 }
 
